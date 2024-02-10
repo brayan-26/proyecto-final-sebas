@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/register.css">
+    </head>
+<body>
+ 
+    <form action="../config/register.php" method="post" id="registroForm" class="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0">
+        <div class="w-full bg-white rounded-lg shadow border md:mt-0 sm:max-w-md xl:p-0">
+          <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+            <p class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
+              Crear cuenta
+            </p>
+            <div>
+              <label class="block mb-2 text-sm font-medium text-gray-900">
+                Nombre
+              </label>
+              <input placeholder="completo" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" id="nombre" name="nombre" type="text" required>
+            </div>
+            <div>
+              <label class="block mb-2 text-sm font-medium text-gray-900">
+                Teléfono
+              </label>
+              <input placeholder="321458" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" id="telefono" name="telefono" type="tel" required>
+            </div>
+            <div>
+              <label class="block mb-2 text-sm font-medium text-gray-900">
+                Cédula
+              </label>
+              <input placeholder="1245" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" id="cedula" name="cedula" type="text" required>
+            </div>
+            <div>
+              <label class="block mb-2 text-sm font-medium text-gray-900">
+                Correo Electrónico
+              </label>
+              <input placeholder="email" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" id="correo" name="correo" type="email" required>
+            </div>
+            <div>
+              <label class="block mb-2 text-sm font-medium text-gray-900">
+                Contraseña
+              </label>
+              <input class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" placeholder="••••••••" id="contrasena" name="contrasena" type="password" required>
+          
+            </div>
+            <div>
+              <br>
+      
+            </div>
+            <button class="w-full bg-blue-500 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  focus:ring-blue-800 text-white" type="submit">
+              Crear cuenta
+            </button>
+          </div>
+          
+      </form>
+      
+
+</body>
+</html>
+
+  
